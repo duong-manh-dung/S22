@@ -551,9 +551,14 @@ tr:nth-child(even) {
   align-items: center;
 }
 
+.price-title div {
+  align-items: flex-start;
+}
+
 .price-title div p, .prices div p {
   font-size: 15px;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .prices div p:nth-child(2) {
