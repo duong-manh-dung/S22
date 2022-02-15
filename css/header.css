@@ -1,8 +1,60 @@
+@import url("font.css");
+
 #header {
   background-color: #fff;
 }
 
-img {
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  width: 400px;
+  margin-left: 60px
+}
+
+.phone-cart, .phone-cart div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Sharp Sans;
+  text-decoration: none;
+}
+
+.phone-cart {
+  margin-right: 60px;
+}
+
+.phone-cart div {
+  margin-left: 20px;
+}
+
+.phone-cart div a img {
+  margin-right: 10px;
+}
+
+.phone-cart div:first-child a span {
+  color: #fff;
+  font-weight: bold;
+}
+
+.phone-cart div:last-child a span {
+  color: #000;
+}
+
+.phone {
+  width: 160px;
+  background-color: #000;
+  color: #fff;
+  padding: 7px 0;
+  border-radius: 40px;
+}
+
+.banner {
   width: 100%;
 }
 
