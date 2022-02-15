@@ -432,33 +432,33 @@
   padding: 12px 0 0;
 }
 
-.price-title, .price {
+.price-title, .prices {
   font-family: Sharp Sans;
   border-top: 1px solid #E0E0E0;
   margin: 60px 45px 0;
 }
 
-.price {
+.prices {
   margin-left: 0;
 }
 
-.price-title div, .price div {
+.price-title div, .prices div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.price-title div p, .price div p {
+.price-title div p, .prices div p {
   font-size: 15px;
   margin-bottom: 10px;
 }
 
-.price div p:nth-child(2) {
+.prices div p:nth-child(2) {
   color: #CA6584;
 }
 
-.price a {
+.prices a {
   display: flex;
   flex-direction: row;
   justify-content: center;
