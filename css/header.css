@@ -1,0 +1,21 @@
+#header {
+  background-color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+.small-banner {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .big-banner {
+    display: none;
+  }
+
+  .small-banner {
+    display: block;
+  }
+}
