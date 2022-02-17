@@ -1,0 +1,99 @@
+@import "../css/font.css";
+.custom-select {
+  width: 100%;
+  position: relative;
+  font-family: Sharp Sans;
+  font-size: 14px;
+}
+
+.custom-select select {
+  display: none;
+  /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: #F2FBFF;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 45%;
+  right: 25px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #000 transparent transparent transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #000 transparent;
+  top: 30.5%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/*style the items (options), including the selected item:*/
+.select-selected {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-family: Sharp Sans;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #fff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  border: 1px solid #E0E0E0;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.select-items div {
+  text-align: center;
+  font-size: 16px;
+  font-family: Sharp Sans;
+  font-weight: bold;
+  color: #000;
+  padding: 10px 10px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1024px) {
+  .select-items div, .select-selected {
+    padding: 12px;
+  }
+
+  .select-selected:after {
+    top: 20px;
+    right: 20px;
+  }
+}

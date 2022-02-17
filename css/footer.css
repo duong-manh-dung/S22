@@ -1,0 +1,78 @@
+#footer {
+  background-color: #F4F4F4;
+  padding: 60px;
+  font-family: Sharp Sans;
+  text-align: center;
+}
+
+#footer p:first-child {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#footer p:nth-child(2) {
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+
+#footer div {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#footer div form {
+  width: 100%;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer div form input {
+  width: 100%;
+  font-family: Sharp Sans;
+  font-size: 18px;
+  padding: 15px 0 15px 10px;
+  border-radius: 5px;
+  border: 1px solid #ededed;
+  margin: 10px 0;
+}
+
+::placeholder {
+  color: #ededed;
+}
+
+#footer div form button {
+  width: 200px;
+  margin: 10px auto;
+  padding: 15px 0;
+  border-radius: 28px;
+  border: none;
+  font-family: Sharp Sans;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(92.69deg, #8C324C -2.85%, #CA6584 51.46%, #8C324C 101.43%);
+}
+
+@media (max-width: 736px) {
+  #footer {
+    padding: 60px 10px;
+  }
+
+  #footer div {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #footer div form input {
+    font-size: 15px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px 0 5px 10px;
+  }
+
+  #footer div form button {
+    padding: 8px 0;
+    font-size: 15px;
+  }
+}

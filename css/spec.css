@@ -1,0 +1,13 @@
+.specifications-mobile {
+  display: none;
+}
+
+@media (max-width: 736px) {
+  .specifications {
+    display: none;
+  }
+
+  .specifications-mobile {
+    display: block;
+  }
+}

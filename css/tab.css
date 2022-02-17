@@ -1,0 +1,43 @@
+.tab-container {}
+
+.tabs-mobile {
+  display: none;
+}
+
+.tabs-desktop {}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+.tabs span {
+  font-family: Sharp Sans;
+  font-size: 18px;
+  margin: 0 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.tabs span.active::after {
+  content: '';
+  position: absolute;
+  left: 10%;
+  bottom: -11px;
+  background-color: #000;
+  width: 80%;
+  height: 2px;
+}
+
+@media (max-width: 736px) {
+  .tabs-desktop {
+    display: none;
+  }
+
+  .tabs-mobile {
+    display: block;
+  }
+}

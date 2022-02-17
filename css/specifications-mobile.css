@@ -1,0 +1,125 @@
+@import "../css/font.css";
+
+.specifications-mobile {
+  font-family: Sharp Sans;
+  width: 100%;
+  background-color: #fff;
+}
+
+.specifications-mobile .title-mobile {
+  width: 100%;
+  text-align: center;
+  padding: 30px 10px;
+  border-bottom: 1px solid #f4f4f4;
+  font-weight: bold;
+}
+
+.specifications-mobile .title-mobile p {
+  font-size: 24px;
+}
+
+.s22-ultra {
+  width: 100%;
+}
+
+.s22-img {
+  width: 100%;
+  display: flex;
+}
+
+.s22-img img {
+  width: 200px;
+  margin: 30px auto;
+}
+
+.s22-info {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.s22-info .accessories-info {
+  margin-bottom: 20px;
+}
+
+.chip-info, .ram-info, .rom-info, .spen-info {
+  margin-bottom: 0 !important;
+}
+
+.s22-info p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.s22-title {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-column-gap: 10px;
+}
+
+.s22-title p:first-child {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.s22-detail {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-column-gap: 5px;
+}
+
+.s22-buy {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-column-gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.s22-prices {
+  border-top: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.s22-prices p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.s22-btn {
+  border-top: 1px solid #E0E0E0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-right: 10px;
+}
+
+.s22-btn p {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.s22-btn p:not(.s22-btn p:first-child) {
+  color: #CA6584;
+}
+
+.s22-btn a {
+  font-size: 14px;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(92.69deg, #8C324C -2.85%, #CA6584 51.46%, #8C324C 101.43%);
+  border-radius: 20px;
+  padding: 8px 0;
+  color: #fff;
+}

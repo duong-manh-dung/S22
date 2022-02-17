@@ -1,0 +1,701 @@
+@import "../css/font.css";
+
+@media (min-width: 1024px) {
+  .pre-booking {
+    font-family: Sharp Sans;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 60px;
+  }
+
+  .pre-box {
+    background-color: #fff;
+    border-radius: 28px;
+    display: flex;
+    padding: 60px 30px 20px 30px;
+  }
+
+  .pre-box .title {
+    text-align: center;
+    font-weight: bold;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .pre-box .title p:first-child {
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+
+  .pre-box .title p:nth-child(2) {
+    font-size: 18px;
+    color: #CA6584;
+    margin-bottom: 5px;
+  }
+
+  .pre-box .title p:nth-child(3) {
+    width: 150px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 28px;
+  }
+
+  .pre-box .info {
+    padding: 15px 15px;
+  }
+
+  .pre-box .info .gift-text {
+    border: 1px solid #E0E0E0;
+    border-radius: 28px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .pre-box .info .gift-text p:first-child {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .pre-box .info .gift-text .gift-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pre-box .info .gift-text .gift-img img {
+    margin-right: 20px;
+  }
+
+  .pre-box .info .gift-text .gift-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .pre-box .info .gift-text .gift-info p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .pre-box .info .gift-text .gift-info p:last-child {
+    font-size: 16px;
+    color: #DA1E1E;
+  }
+
+  .gift {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 30px;
+  }
+
+  .gift .equip {
+    padding: 10px;
+    display: flex;
+  }
+
+  .gift .equip img {
+    width: 90px;
+  }
+
+  .equip-info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .equip-info p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .equip-info p:last-child {
+    font-size: 16px;
+    color: #DA1E1E;
+  }
+
+  .pre-box .info .give {
+    background-color: #FAFAFA;
+    border-radius: 20px;
+  }
+
+  .info .give {
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FAFAFA;
+    border-radius: 12px;
+  }
+
+  .give .price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .give .price:first-child {
+    margin-right: 5px;
+  }
+
+  .give .price:last-child {
+    margin-left: 5px;
+  }
+
+  .give .price img {
+    width: 90px;
+  }
+
+  .price-info {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .price-info p {
+    font-family: Sharp Sans;
+    font-size: 18px;
+  }
+
+  .price-info p:nth-child(3) {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #DA1E1E;
+  }
+
+  .price-info p:last-child {
+    margin-top: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #4F4F4F;
+    font-weight: 400;
+  }
+
+  .give .or {
+    width: auto;
+    height: 92px;
+    margin: 0 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .give .or div {
+    background-color: #000;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+  }
+
+  .give .or p {
+    padding: 3px 0;
+    font-family: Sharp Sans;
+    font-size: 13px;
+    position: relative;
+    background-color: #FAFAFA;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .commit {
+    margin-bottom: 30px;
+  }
+
+  .commit p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #4F4F4F;
+    text-align: center;
+  }
+
+  .deposit {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #242424;
+    height: 60px;
+    padding: 5px 20px;
+    border-radius: 38px;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .deposit p {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .deposit hr {
+    height: 100%;
+    border: 0.5px solid #fff;
+  }
+}
+
+@media (max-width: 1257px) and (min-width: 737px) {
+  .info .give {
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FAFAFA;
+    border-radius: 12px;
+  }
+
+  .give .or div {
+    background-color: #000;
+    width: 400px;
+    height: 2px;
+    position: absolute;
+  }
+
+  .give .or p {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 1162px) and (min-width: 737px) {
+  .gift .equip {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+}
+
+@media (max-width: 1023px) and (min-width: 737px) {
+  .pre-booking {
+    font-family: Sharp Sans;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 60px;
+  }
+
+  .pre-box {
+    background-color: #fff;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30px 20px 30px;
+  }
+
+  .pre-box .title {
+    text-align: center;
+    font-weight: bold;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .pre-box .title p:first-child {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .pre-box .title p:nth-child(2) {
+    font-size: 18px;
+    color: #CA6584;
+    margin-bottom: 5px;
+  }
+
+  .pre-box .title p:nth-child(3) {
+    width: 150px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 28px;
+  }
+
+  .pre-box .info {
+    padding: 15px 15px;
+  }
+
+  .pre-box .info .gift-text {
+    border: 1px solid #E0E0E0;
+    border-radius: 28px;
+    font-weight: bold;
+    padding: 20px 10px 10px;
+    margin-bottom: 30px;
+  }
+
+  .pre-box .info .gift-text p:first-child {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .pre-box .info .gift-text .gift-img {
+    text-align: center;
+  }
+
+  .pre-box .info .gift-text .gift-info p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .pre-box .info .gift-text .gift-info p:last-child {
+    font-size: 16px;
+    color: #DA1E1E;
+  }
+
+  .gift {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 30px;
+  }
+
+  .gift .equip {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .equip-info p {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .equip-info p:last-child {
+    font-size: 16px;
+    color: #DA1E1E;
+  }
+
+  .pre-box .info .give {
+    background-color: #FAFAFA;
+    border-radius: 28px;
+  }
+
+  .pre-box .info .give {
+    margin: 0 0 30px;
+    padding: 10px;
+  }
+
+  .pre-box .info .give .price {
+    text-align: center;
+  }
+
+  .pre-box .info .give .price img {
+    margin-bottom: 10px;
+  }
+
+  .pre-box .info .give .price .price-info p {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #DA1E1E;
+  }
+
+  .pre-box .info .give .price .price-info p:not(p:nth-child(3), p:last-child) {
+    font-size: 16px;
+    color: #000;
+  }
+
+  .pre-box .info .give .price .price-info p:last-child {
+    font-family: 'Inter', sans-serif;
+    color: #4F4F4F;
+    margin: 0 auto;
+    width: 280px;
+  }
+
+  .pre-box .info .give .or {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .pre-box .info .give .or div {
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    background-color: #000;
+  }
+
+  .pre-box .info .give .or p {
+    position: relative;
+    background-color: #FAFAFA;
+    z-index: 2;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 10px;
+  }
+
+  .commit {
+    margin-bottom: 30px;
+  }
+
+  .commit p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #4F4F4F;
+    text-align: center;
+  }
+
+  .deposit {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #242424;
+    height: 60px;
+    padding: 5px 0;
+    border-radius: 38px;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .deposit p {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .deposit hr {
+    height: 100%;
+    border: 0.5px solid #fff;
+  }
+}
+
+@media (max-width: 736px) {
+  .pre-booking {
+    font-family: Sharp Sans;
+    width: 100%;
+    background-color: #f4f4f4;
+  }
+
+  .pre-box {
+    background-color: #fff;
+    border-radius: 28px;
+  }
+
+  .pre-box .title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .pre-box .title p:nth-child(2) {
+    color: #CA6584;
+  }
+
+  .pre-box .title p:nth-child(3) {
+    color: #fff;
+    background-color: #000;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .pre-box .info .gift-text {
+    border: 1px solid #E0E0E0;
+    border-radius: 28px;
+    font-weight: bold;
+  }
+
+  .pre-box .info .give {
+    background-color: #FAFAFA;
+    border-radius: 28px;
+  }
+
+  .pre-booking {
+    padding: 30px 10px;
+  }
+
+  .pre-box .title {
+    padding: 30px 10px;
+  }
+
+  .pre-box .title p:first-child {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .pre-box .title p:nth-child(2) {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .pre-box .title p:nth-child(3) {
+    font-size: 16px;
+    width: 130px;
+    padding: 10px 0;
+    border-radius: 20px;
+  }
+
+  .pre-box .info {
+    padding-bottom: 10px;
+  }
+
+  .pre-box .info .gift-text {
+    text-align: center;
+    padding: 10px;
+    margin: 0 10px 30px;
+  }
+
+  .pre-box .info .gift-text p:first-child {
+    margin-bottom: 10px;
+  }
+
+  .pre-box .info .gift-text .gift-img img {
+    width: 180px;
+  }
+
+  .pre-box .info .gift-text .gift-img .gift-info p {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .pre-box .info .gift-text .gift-img .gift-info p:last-child {
+    font-size: 12px;
+    color: #DA1E1E;
+    margin-bottom: 0;
+  }
+
+  .pre-box .info .gift {
+    margin-bottom: 30px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .pre-box .info .gift .equip {
+    width: 45%;
+    text-align: center;
+  }
+
+  .pre-box .info .gift .equip img {
+    width: 100px;
+  }
+
+  .pre-box .info .gift .equip .equip-info p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .pre-box .info .gift .equip .equip-info p:last-child {
+    font-size: 12px;
+    color: #DA1E1E;
+  }
+
+  .pre-box .info .give {
+    margin: 0 10px 30px;
+    padding: 10px;
+  }
+
+  .pre-box .info .give .price {
+    text-align: center;
+  }
+
+  .pre-box .info .give .price img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+
+  .pre-box .info .give .price .price-info p {
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #DA1E1E;
+  }
+
+  .pre-box .info .give .price .price-info p:not(p:nth-child(3), p:last-child) {
+    font-size: 14px;
+    color: #000;
+  }
+
+  .pre-box .info .give .price .price-info p:last-child {
+    font-family: 'Inter', sans-serif;
+    color: #4F4F4F;
+  }
+
+  .pre-box .info .give .or {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .pre-box .info .give .or div {
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    background-color: #000;
+  }
+
+  .pre-box .info .give .or p {
+    position: relative;
+    background-color: #FAFAFA;
+    z-index: 2;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 10px;
+  }
+
+  .pre-box .info .commit {
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 30px;
+  }
+
+  .pre-box .info .commit p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #828282;
+  }
+
+  .pre-box .info .deposit {
+    height: 32px;
+    margin: 0 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pre-box .info .deposit p {
+    font-size: 12px;
+    margin: 0 5px;
+  }
+
+  .pre-box .info .deposit hr {
+    height: 70%;
+    border: 0.5px solid #fff;
+  }
+}

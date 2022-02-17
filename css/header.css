@@ -17,6 +17,10 @@
   margin-left: 60px
 }
 
+.logo-mobile {
+  display: none;
+}
+
 .phone-cart, .phone-cart div a {
   display: flex;
   justify-content: center;
@@ -62,7 +66,55 @@
   display: none;
 }
 
+@media (max-width: 830px) {
+  .logo {
+    width: 200px;
+    margin-left: 30px;
+  }
+
+  .phone-cart {
+    margin-right: 30px;
+  }
+}
+
 @media (max-width: 750px) {
+
+  .top-header {
+    flex-direction: column;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-mobile {
+    width: 100px;
+    display: block;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .phone-cart {
+    margin-right: 0;
+  }
+
+  .phone-cart div {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+  .phone-cart div a img {
+    width: 15px;
+  }
+
+  .phone-cart div a span {
+    font-size: 13px;
+  }
+
+  .phone {
+    width: 135px;
+  }
+
   .big-banner {
     display: none;
   }

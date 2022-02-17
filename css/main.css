@@ -31,7 +31,7 @@
   height: 2px;
 }
 
-.pre-booking, .pre-order {
+.pre-booking {
   width: 90%;
   margin: 60px auto 0;
   left: auto;
@@ -83,7 +83,10 @@
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #fff;;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #fff;
+  ;
   border-radius: 28px;
   border: 1px solid #E0E0E0;
 }
@@ -368,6 +371,10 @@
   width: 100px;
 }
 
+.img-mobile {
+  display: none;
+}
+
 .details {
   margin-top: 30px;
 }
@@ -408,7 +415,6 @@
 }
 
 /* style table begin */
-
 .table {
   margin: 0 30px;
 }
@@ -435,7 +441,6 @@ tr:nth-child(even) {
 }
 
 /* style table end */
-
 .pink-text {
   text-decoration: underline;
   color: #CA6584;
@@ -577,4 +582,147 @@ tr:nth-child(even) {
   border-radius: 20px;
   padding: 7px;
   width: 150px;
+}
+
+@media (max-width: 1200px) {
+  .endow-detail {
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-desktop {
+    display: none;
+  }
+
+  .img-mobile {
+    display: block;
+  }
+
+  .endow .endow-data {
+    height: 564.16px;
+  }
+}
+
+@media (max-width: 1172px) {
+  .info .give {
+    flex-direction: column;
+  }
+
+  .give .price {
+    width: 350px;
+    justify-content: flex-start;
+  }
+
+  .give .price:first-child {
+    margin-right: 0;
+  }
+
+  .give .price:last-child {
+    margin-left: 0;
+  }
+
+  .give .or {
+    width: 100%;
+    height: 1px;
+    background-color: #242424;
+    margin: 30px 20px;
+  }
+
+  .give .or p {
+    padding: 3px 5px;
+  }
+}
+
+@media (max-width: 1041px) {
+  .endow {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .endow .endow-box {
+    width: 600px;
+  }
+
+  .endow .endow-data {
+    width: 600px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 920px) {
+  .gift .equip {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .equip-info {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 823px) {
+  .pre-booking {
+    grid-template-columns: 100%;
+  }
+
+  .title {
+    margin-top: 30px;
+  }
+
+  .gift-img {
+    flex-direction: column;
+  }
+
+  .gift-info {
+    align-items: center;
+  }
+
+  .gift-img img {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 736px) {
+  .tabs {
+    display: none;
+  }
+  .give .price {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .price-info {
+    margin-top: 15px;
+    align-items: center;
+  }
+
+  .endow {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .endow .endow-box {
+    width: 95%;
+  }
+
+  .endow .endow-data {
+    width: 95%;
+    height: 400px;
+    margin-top: 60px;
+  }
+
+  .specifications {
+    display: none;
+  }
+
+  .info .deposit {
+    width: 200px;
+  }
+
+  .deposit p {
+    font-size: 12px;
+  }
 }

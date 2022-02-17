@@ -1,0 +1,127 @@
+.specifications {
+  width: 100%;
+  /* margin-top: 60px;
+  margin-bottom: -65px; */
+  background-color: #fff;
+}
+
+.specifications-title {
+  width: 100%;
+  text-align: center;
+  padding: 60px;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.specifications-title p {
+  font-family: Sharp Sans;
+  font-size: 36px;
+}
+
+.products, .product-info-screen, .product-info-material, .product-info-camera, .product-info-accessories, .product-info-price {
+  display: grid;
+  grid-template-columns: 16% 28% 28% 28%;
+}
+
+.product-info-price {
+  padding-bottom: 60px;
+}
+
+.products div img {
+  width: 200px;
+}
+
+.products div, .product-info-screen div, .product-info-material div, .product-info-camera div, .product-info-accessories div {
+  padding: 60px 15px 0;
+}
+
+.product-info-screen div, .product-info-material div, .product-info-camera div, .product-info-accessories div, .product-info-price div {
+  padding-top: 30px
+}
+
+.products div p, .product-info-screen div p, .product-info-material div p, .product-info-camera div p, .product-info-accessories div p {
+  font-family: Sharp Sans;
+}
+
+.products div p {
+  font-size: 28px;
+  margin-bottom: 60px;
+}
+
+.product-info-screen div p, .product-info-material div p, .product-info-camera div p, .product-info-accessories div p {
+  font-size: 14px;
+  margin-top: 6.5px;
+  margin-bottom: 10px;
+}
+
+.product-info-screen div p {
+  margin-top: 10.3px;
+}
+
+.product-info-screen div:first-child p, .product-info-material div:first-child p, .product-info-camera div:first-child p {
+  margin-top: 0;
+  margin-left: 60px;
+}
+
+.product-info-accessories div:first-child p {
+  margin-left: 45px;
+}
+
+.product-info-screen div:first-child p:first-child, .product-info-material div:first-child p:first-child, .product-info-camera div:first-child p:first-child, .product-info-accessories div:first-child p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 45px;
+  padding: 0;
+}
+
+.product-info-material div p:first-child, .product-info-camera div p:first-child {
+  padding: 14.5px 0 8px;
+}
+
+.product-info-accessories div p:first-child {
+  padding: 12px 0 0;
+}
+
+.price-title, .prices {
+  font-family: Sharp Sans;
+  border-top: 1px solid #E0E0E0;
+  margin: 60px 45px 0;
+}
+
+.prices {
+  margin-left: 0;
+}
+
+.price-title div, .prices div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-title div {
+  align-items: flex-start;
+}
+
+.price-title div p, .prices div p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.prices div p:nth-child(2) {
+  color: #CA6584;
+}
+
+.prices a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  background: linear-gradient(92.69deg, #8C324C -2.85%, #CA6584 51.46%, #8C324C 101.43%);
+  border-radius: 20px;
+  padding: 7px;
+  width: 150px;
+}
