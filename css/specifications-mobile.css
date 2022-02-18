@@ -54,7 +54,7 @@
 .s22-title {
   display: grid;
   grid-template-columns: 35% 65%;
-  grid-column-gap: 10px;
+  grid-column-gap: 5px;
 }
 
 .s22-title p:first-child {
@@ -109,9 +109,9 @@
   margin-bottom: 10px;
 }
 
-.s22-btn p:not(.s22-btn p:first-child) {
+/* .s22-btn p:not(.s22-btn p:first-child) {
   color: #CA6584;
-}
+} */
 
 .s22-btn a {
   font-size: 14px;

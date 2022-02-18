@@ -108,9 +108,9 @@
   font-weight: bold;
 }
 
-.prices div p:nth-child(2) {
+/* .prices div p:nth-child(2) {
   color: #CA6584;
-}
+} */
 
 .prices a {
   display: flex;
